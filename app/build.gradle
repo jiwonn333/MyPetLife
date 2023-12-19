@@ -44,4 +44,7 @@ dependencies {
 
     // splashscreen
     implementation 'androidx.core:core-splashscreen:1.0.0-alpha01'
+
+    // material
+    implementation "androidx.compose.material:material:1.5.4"
 }

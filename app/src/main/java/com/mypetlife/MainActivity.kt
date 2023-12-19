@@ -10,5 +10,12 @@ class MainActivity : AppCompatActivity() {
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        // bottom nav init
+        init()
+    }
+
+    private fun init() {
+
     }
 }

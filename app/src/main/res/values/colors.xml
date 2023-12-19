@@ -11,4 +11,5 @@
     <!-- splash color -->
     <color name="splash_background_color">#F9A826</color>
     <color name="splash_icon_color">#6C63FF</color>
+
 </resources>
