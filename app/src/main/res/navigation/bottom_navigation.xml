@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.mypetlife.HomeFragment"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/nav_diary"
+        android:name="com.mypetlife.DiaryFragment"
+        tools:layout="@layout/fragment_diary"/>
+
+    <fragment
+        android:id="@+id/nav_walk"
+        android:name="com.mypetlife.WalkFragment"
+        tools:layout="@layout/fragment_walk"/>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.mypetlife.GalleryFragment"
+        tools:layout="@layout/fragment_gallery"/>
+
+    <fragment
+        android:id="@+id/nav_mypage"
+        android:name="com.mypetlife.MyPageFragment"
+        tools:layout="@layout/fragment_my_page"/>
+
+
+</navigation>
