@@ -10,3 +10,6 @@
 * <b>Rename</b> : 파일 혹은 폴더명을 수정만 한 경우
 * <b>Remove</b> : 파일을 삭제만 한 경우
 
+
+---
+CircleImageView lib 사용 > https://github.com/hdodenhof/CircleImageView
