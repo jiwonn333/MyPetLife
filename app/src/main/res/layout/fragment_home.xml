@@ -69,13 +69,68 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/layout_home_info_detail"
             android:layout_width="0dp"
-            android:layout_marginStart="20dp"
             android:layout_height="0dp"
-            app:layout_constraintStart_toEndOf="@id/iv_pet"
-            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/iv_pet"
             app:layout_constraintTop_toBottomOf="@id/tv_pet_name"
-            app:layout_constraintBottom_toBottomOf="parent">
+            app:layout_co계nstraintEnd_toEndOf="parent">
+
+            <TextView
+                android:id="@+id/tv_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/my_pet_font"
+                android:text="이번달 산책!"
+                android:textColor="@color/logo_color"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_minute_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/my_pet_font"
+                android:text="0"
+                android:textSize="24dp"
+                app:layout_constraintEnd_toStartOf="@id/tv_minute_text"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_month" />
+
+            <TextView
+                android:id="@+id/tv_minute_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/my_pet_font"
+                android:text="분"
+                android:textSize="24dp"
+                app:layout_constraintEnd_toStartOf="@id/tv_sum_num"
+                app:layout_constraintStart_toEndOf="@id/tv_minute_num"
+                app:layout_constraintTop_toBottomOf="@id/tv_month" />
+
+            <TextView
+                android:id="@+id/tv_sum_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/my_pet_font"
+                android:text="0"
+                android:textSize="24dp"
+                app:layout_constraintEnd_toStartOf="@id/tv_sum_text"
+                app:layout_constraintStart_toEndOf="@id/tv_minute_text"
+                app:layout_constraintTop_toBottomOf="@id/tv_month" />
+
+            <TextView
+                android:id="@+id/tv_sum_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/my_pet_font"
+                android:text="회"
+                android:textSize="24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/tv_sum_num"
+                app:layout_constraintTop_toBottomOf="@id/tv_month" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
